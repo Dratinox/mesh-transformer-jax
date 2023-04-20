@@ -27,16 +27,12 @@
   "train_set": "spider.train.index",
   "val_set": "spider.val.index",
 
-  "eval_harness_tasks": [
-    "lambada"
-  ],
-
   "val_batches": 86,
   "val_every": 500,
   "ckpt_every": 500,
   "keep_every": 10000,
 
-  "name": "GPT3_6B_pile_rotary",
+  "name": "GPT-J-Spider",
   "wandb_project": "mesh-transformer-jax",
   "comment": ""
 }
